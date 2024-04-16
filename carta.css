@@ -1,0 +1,61 @@
+
+  body{
+    margin:50px; 
+  }
+  
+  p,li{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-size: large;
+    line-height: 1.6;
+    hyphens: auto;
+    word-spacing: 5px;
+  }
+
+  h1,h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    color: rgb(0, 183, 107);
+    text-decoration: underline 1px;
+    word-spacing: 10px;
+  }
+
+  q{
+    quotes: " ' "  " ' ";
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(0, 183, 107);
+    vertical-align: text-top;
+  } /* queda mal, pero quedaba igual de mal en todas partes*/
+
+  a:hover{
+    color: rgb(188, 3, 179);
+  }
+
+  ul{
+    list-style-type:square;
+  }
+
+  span{
+    word-wrap: break-word;
+  } /*el correo me parecio la palabra mas larga, no se nota pero el word-wrap esta puesto*/
+
+  #vertical{
+    writing-mode: vertical-lr; 
+  } /* no sabia donde poner el writing-mode. Momento graphic design is my passion*/
+
+.quitarcirculo{
+    list-style-type: none;
+}
+ 
+#pabajo{
+    margin-top: 110px;
+}
+
+#izq{
+    text-align: right;
+}
+
